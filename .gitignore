@@ -1,0 +1,19 @@
+# ===== Windows / NTFS ghost paths =====
+Vs.
+Vs./
+
+# ===== Visual Studio / VS Code =====
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ===== Java =====
+*.class
+*.log
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
