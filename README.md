@@ -29,4 +29,4 @@
 - **28-Jan-2025 (Tue):** Solved Java Constructors Problems and learned about concepts of constructors and rebuild my GitHub Repo with right folder sctructure
 - **29-Jan-2025 (Thu):** Solved all the questions related to keywords and pushed it on GitHub's Proper folder structure.
 - **30-Jan-2025 (Fri):** Solved the questions of object modeling, learned about Abstract classes and Access Modifiers.
-- 
+- **31-Jan-2025 (Sat):** Solved the questions of the Object modeling and learned about Interfaces and how they solve the problem of Multiple Inheritance not working in java.
