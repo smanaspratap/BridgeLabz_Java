@@ -11,28 +11,40 @@ If true, add i to sum.
 Outside the loop Check if sum is greater than number.
 If the sum is greater than the number, print Abundant Number. Otherwise, print Not an Abundant Number
 */
-
-
 import java.util.Scanner;
 
 public class AbundantNumber {
+
     public static void main(String[] args) {
+
+        // Scanner object to read input from the user
         Scanner sc = new Scanner(System.in);
+
+        // Reading the number to be checked
         int number = sc.nextInt();
 
+        // Variable to store the sum of proper divisors
         int sum = 0;
 
+        // Loop to find all proper divisors of the number
+        // Proper divisors are numbers less than the number itself
         for (int i = 1; i < number; i++) {
+
+            // Checking if i is a divisor of the number
             if (number % i == 0) {
                 sum = sum + i;
             }
         }
 
+        // Checking if the number is abundant
         if (sum > number) {
             System.out.println("Abundant Number");
-        } else {
+        }
+        else {
             System.out.println("Not an Abundant Number");
         }
+
+        // Closing the scanner to release resources
         sc.close();
     }
 }
