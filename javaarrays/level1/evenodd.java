@@ -10,27 +10,38 @@ Finally compare the first and last element of the array and display if they equa
  */
 
 
-import java.util.*;
-public class evenodd{
+import java.util.*; // import utility classes (Scanner)
+
+public class Evenodd{ // class to check positive/negative/zero and even/odd
     public static void main(String[] args) {
+        // create a Scanner to read user input from console
         Scanner in = new Scanner(System.in);
+
+        // define an integer array of 5 elements
         int[] arr = new int[5];
+
+        // read 5 numbers from the user and store them in the array
         for (int i = 0; i < arr.length; i++) {
-            System.out.print("Enter number " + (i + 1) + ": ");
-            arr[i] = in.nextInt();
+            System.out.print("Enter number " + (i + 1) + ": "); // prompt
+            arr[i] = in.nextInt(); // read next integer
         }
+
+        // iterate over the array and check each number
         for (int num : arr) {
-            if (num > 0) {
+            if (num > 0) { // positive number
+                // check if positive number is even or odd
                 if (num % 2 == 0)
                     System.out.println(num + " is positive and even");
                 else
                     System.out.println(num + " is positive and odd");
-            } else if (num < 0) {
+            } else if (num < 0) { // negative number
                 System.out.println(num + " is negative");
-            } else {
+            } else { // num == 0
                 System.out.println(num + " is zero");
             }
         }
+
+        // compare first and last elements of the array
         if (arr[0] == arr[arr.length - 1])
             System.out.println("First and last elements are equal");
         else if (arr[0] > arr[arr.length - 1])
@@ -38,6 +49,7 @@ public class evenodd{
         else
             System.out.println("Last element is greater");
 
+        // close the Scanner to free resources
         in.close();
         
     }
