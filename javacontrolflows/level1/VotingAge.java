@@ -11,15 +11,27 @@
 import java.util.Scanner;
 
 public class vote {
+
     public static void main(String[] args) {
+
+        // Scanner object to read input from the user
         Scanner sc = new Scanner(System.in);
+
+        // Reading the age of the person
         int age = sc.nextInt();
 
+        // Checking if the person is eligible to vote
         if (age >= 18) {
+
+            // If age is 18 or more, the person can vote
             System.out.println("The person's age is " + age + " and can vote.");
-        } else {
+        }
+        // If age is less than 18
+        else {
             System.out.println("The person's age is " + age + " and cannot vote.");
         }
+
+        // Closing the scanner to release resources
         sc.close();
-    }    
+    }
 }
