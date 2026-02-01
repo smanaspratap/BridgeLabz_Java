@@ -3,7 +3,7 @@ import java.util.Scanner;
 /* 7. Rewrite the above program using multi-dimensional array to store height, weight, and BMI in
 2D array for all the persons
 */
-public class Multidimensionalarray {
+class Multidimensionalarray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter number of persons: ");

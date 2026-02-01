@@ -5,24 +5,37 @@ Run a loop from 1 to 10 and store the results in the multiplication table array
 Finally, display the result from the array in the format number * i = ___
  */
 
-
 import java.util.*;
-public class multiplicationtable{
+
+class multiplicationtable {
+
     public static void main(String[] args) {
+
+        // Scanner object to read input from the user
         Scanner sc = new Scanner(System.in);
 
+        // Prompting the user to enter a number
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
 
-        int[] table = new int[10];//initialization 
+        // Array to store the multiplication table (1 to 10)
+        int[] table = new int[10]; // initialization
 
+        // Loop to calculate the multiplication table
         for (int i = 1; i <= 10; i++) {
-            table[i - 1] = number * i;//Table operation
+
+            // Storing the result of multiplication in the array
+            table[i - 1] = number * i; // table operation
         }
 
+        // Loop to print the multiplication table
         for (int i = 1; i <= 10; i++) {
-            System.out.println(number + " * " + i + " = " + table[i - 1]);//print
+
+            // Displaying each line of the table
+            System.out.println(number + " * " + i + " = " + table[i - 1]); // print
         }
+
+        // Closing the scanner to release resources
         sc.close();
     }
 }

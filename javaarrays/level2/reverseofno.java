@@ -3,7 +3,7 @@ import java.util.Scanner;
 /* 5. Create a program to take a number as input and reverse the number.
 To do this, store the digits of the number in an array and display the array in reverse order
 */
-public class reverseofno {
+class reverseofno {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number: ");

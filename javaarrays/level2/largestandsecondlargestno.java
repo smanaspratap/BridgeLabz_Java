@@ -3,7 +3,7 @@ import java.util.Scanner;
 /* 3. Create a program to store the digits of the number in an array and find the largest and
 second largest element of the array.
 */
-public class largestandsecondlargestno {
+class largestandsecondlargestno {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         

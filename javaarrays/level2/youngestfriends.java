@@ -3,7 +3,7 @@ import java.util.Scanner;
 /* 2. Create a program to find the youngest friends among 3 Amar, Akbar, and Anthony based on
 their ages and the tallest among the friends based on their heights
 */
-public class youngestfriends {
+class youngestfriends {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         

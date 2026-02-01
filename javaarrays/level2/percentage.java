@@ -3,7 +3,7 @@ import java.util.Scanner;
 /* 8. Create a program to take input marks of students in 3 subjects physics, chemistry, and maths.
 Compute the percentage and then calculate the grade
 */
-public class percentage {
+class percentage {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter number of students: ");

@@ -3,7 +3,7 @@ import java.util.Scanner;
 /* 10. Create a program to take a number as input find the frequency of each digit in the number
 using an array and display the frequency of each digit
 */
-public class frequency {
+class Frequency {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number: ");

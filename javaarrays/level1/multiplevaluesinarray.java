@@ -12,35 +12,55 @@ Finally display the total value
 
 
 import java.util.*;
-public class multiplevaluesinarray{
+
+class multiplevaluesinarray {
+
     public static void main(String[] args) {
 
-
+        // Scanner object to read input from the user
         Scanner in = new Scanner(System.in);
 
-        double arr[] = new double[10];   // array of size 10
-        double total = 0.0;              // to store sum
-        int index = 0; 
+        // Array to store up to 10 double values
+        double[] arr = new double[10];
 
-         while (true) {
+        // Variable to store the sum of entered numbers
+        double total = 0.0;
+
+        // Index to track how many numbers have been stored
+        int index = 0;
+
+        // Loop to keep taking input until condition breaks
+        while (true) {
+
+            // Prompting the user to enter a number
             System.out.print("Enter a number: ");
             double num = in.nextDouble();
 
-            // Break if number is 0 or negative
+            // Stop input if number is zero/negative
+            // or if the array is already full
             if (num <= 0 || index == 10) {
                 break;
             }
+
+            // Store the number in the array
             arr[index] = num;
             index++;
         }
+
+        // Displaying the numbers entered by the user
         System.out.println("\nNumbers entered:");
         for (int i = 0; i < index; i++) {
+
             System.out.println(arr[i]);
+
+            // Adding each number to total
             total += arr[i];
         }
+
+        // Displaying the sum of all entered numbers
         System.out.println("\nSum of all numbers = " + total);
 
+        // Closing the scanner to free resources
         in.close();
     }
-
 }

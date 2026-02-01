@@ -5,25 +5,43 @@ Define an array of 10 integer elements and take user input for the student's age
 Loop through the array using the length property and for the element of the array check If the age is a negative number print an invalid age and if 18 or above, print The student with the age ___ can vote. Otherwise, print The student with the age ___ cannot vote. 
 */
 import java.util.*;
-public class voting{
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int arr[] = new int[10];
 
-        for(int i = 0 ; i<10; i++){
-            System.out.println("enter your age ");
+class voting {
+
+    public static void main(String[] args) {
+
+        // Scanner object to read input from the user
+        Scanner in = new Scanner(System.in);
+
+        // Array to store ages of 10 students
+        int[] arr = new int[10];
+
+        // Loop to take age input for each student
+        for (int i = 0; i < 10; i++) {
+
+            // Prompting the user to enter age
+            System.out.println("Enter your age:");
             arr[i] = in.nextInt();
-            
         }
-        for(int age: arr ){
-            if(age<0){
+
+        // Loop to check voting eligibility for each age
+        for (int age : arr) {
+
+            // Checking for invalid age
+            if (age < 0) {
                 System.out.println("Invalid Age");
-            }else if(age >= 18){
-                System.out.println("The student with age "+age+ " can vote");
-            }else{
+            }
+            // Checking if the person is eligible to vote
+            else if (age >= 18) {
+                System.out.println("The student with age " + age + " can vote");
+            }
+            // If age is less than 18
+            else {
                 System.out.println("The student with age " + age + " cannot vote");
             }
         }
+
+        // Closing the scanner to free system resources
         in.close();
     }
 }

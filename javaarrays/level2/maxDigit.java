@@ -3,7 +3,7 @@ import java.util.Scanner;
 /* 4. Rework the program 2, especially the Hint f where if index equals maxDigit, we break from the loop.
 Here we want to modify to Increase the size of the array i,e maxDigit by 10 if the index is equal to maxDigit.
 */
-public class maxDigit {
+class maxDigit {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         

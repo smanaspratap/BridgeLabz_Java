@@ -9,37 +9,63 @@ Finally, Display the factors of the number
 
 
 import java.util.*;
-public class factorsofno{
+
+class factorsofno {
+
     public static void main(String[] args) {
+
+        // Scanner object to take input from the user
         Scanner sc = new Scanner(System.in);
 
+        // Asking the user to enter a number
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
 
+        // Initial size of the array to store factors
         int maxSize = 10;
+
+        // Array to store the factors of the number
         int[] factors = new int[maxSize];
+
+        // Index to keep track of how many factors are stored
         int index = 0;
 
+        // Loop from 1 to the given number
         for (int i = 1; i <= number; i++) {
+
+            // Check if 'i' is a factor of the number
             if (number % i == 0) {
 
+                // If array is full, increase its size
                 if (index == maxSize) {
+
+                    // Double the size of the array
                     maxSize *= 2;
+
+                    // Create a new temporary array with larger size
                     int[] temp = new int[maxSize];
 
-                    for (int j = 0; j < index; j++)
+                    // Copy existing factors into the new array
+                    for (int j = 0; j < index; j++) {
                         temp[j] = factors[j];
+                    }
 
+                    // Assign the new array back to factors
                     factors = temp;
                 }
 
+                // Store the factor and move to the next index
                 factors[index++] = i;
             }
         }
 
+        // Displaying all the factors
         System.out.println("Factors are:");
-        for (int i = 0; i < index; i++)
+        for (int i = 0; i < index; i++) {
             System.out.print(factors[i] + " ");
+        }
+
+        // Closing the scanner to free resources
         sc.close();
     }
 }
