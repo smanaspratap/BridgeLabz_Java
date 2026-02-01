@@ -1,5 +1,5 @@
 public class Main{
     public static void main(String[] args) {
-        System.out.println("Hello and Welcome to my Repository!!");
+        System.out.println("Hello and Welcome");
     }
 }
