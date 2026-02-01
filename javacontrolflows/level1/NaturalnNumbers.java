@@ -12,16 +12,31 @@
 import java.util.Scanner;
 
 public class Natnos {
+
     public static void main(String[] args) {
+
+        // Scanner object to take input from the user
         Scanner sc = new Scanner(System.in);
+
+        // Reading the number from the user
         int number = sc.nextInt();
 
+        // Checking if the number is a natural number (0 or positive)
         if (number >= 0) {
+
+            // Formula to calculate sum of first n natural numbers
+            // sum = n * (n + 1) / 2
             int sum = number * (number + 1) / 2;
+
+            // Displaying the result
             System.out.println("The sum of " + number + " natural numbers is " + sum);
-        } else {
+        }
+        // If the number is negative
+        else {
             System.out.println("The number " + number + " is not a natural number");
         }
+
+        // Closing the scanner to free resources
         sc.close();
     }
 }
