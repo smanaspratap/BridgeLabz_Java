@@ -9,29 +9,47 @@ Finally check if the number and the sum are the same, if same its an Armstrong n
  */
 
 
-
-
 import java.util.Scanner;
 
 public class ArmstrongNumber {
+
     public static void main(String[] args) {
+
+        // Scanner object to read input from the user
         Scanner sc = new Scanner(System.in);
+
+        // Reading the number to be checked
         int number = sc.nextInt();
 
+        // Storing the original number for comparison later
         int originalNumber = number;
+
+        // Variable to store the sum of cubes of digits
         int sum = 0;
 
+        // Loop to extract each digit of the number
         while (originalNumber != 0) {
+
+            // Getting the last digit of the number
             int remainder = originalNumber % 10;
+
+            // Adding the cube of the digit to the sum
             sum = sum + (remainder * remainder * remainder);
+
+            // Removing the last digit from the number
             originalNumber = originalNumber / 10;
         }
 
+        // Checking if the number is an Armstrong number
         if (sum == number) {
             System.out.println("Armstrong Number");
-        } else {
+        }
+        else {
             System.out.println("Not an Armstrong Number");
         }
+
+        // Closing the scanner to release resources
         sc.close();
     }
 }
+
