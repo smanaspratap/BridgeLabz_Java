@@ -29,4 +29,5 @@
 - **29-Jan-2026 (Thu):** Solved all the questions related to keywords and pushed it on GitHub's Proper folder structure.
 - **30-Jan-2026 (Fri):** Solved the questions of object modeling, learned about Abstract classes and Access Modifiers.
 - **31-Jan-2026 (Sat):** Solved the questions of the Object modeling and learned about Interfaces and how they solve the problem of Multiple Inheritance not working in java.
-- **2-Feb-2026 (Sat):** Revised all the concepts from the start, Strings, arrays,Bit Manipulation and then moved on to the problem solving of Inheritance. Submitted and pushed the codes and studied Encapsulation, Polymorphism etc..
+- **2-Feb-2026 (Mon):** Revised all the concepts from the start, Strings, arrays,Bit Manipulation and then moved on to the problem solving of Inheritance. Submitted and pushed the codes and studied Encapsulation, Polymorphism etc..
+- **3-Feb-2026(Tue):**Revised all the oops concepts for the review and started learning Linked lists.
