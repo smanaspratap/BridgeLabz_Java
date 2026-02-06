@@ -32,3 +32,5 @@
 - **2-Feb-2026 (Mon):** Revised all the concepts from the start, Strings, arrays,Bit Manipulation and then moved on to the problem solving of Inheritance. Submitted and pushed the codes and studied Encapsulation, Polymorphism etc..
 - **3-Feb-2026(Tue):** Revised all the oops concepts for the review and started learning Linked lists.
 - **4-Feb-2026 (Wed):** Learned about the Linked Lists and how to implement the Linked lists and the types, Singly LL, Doubly LL and Circular LL.
+- **5-Feb-2026 (Thu):** Particed and Prepared for the Company meetup.
+- **6-Feb-2026 (Fri):** I solved all the Linked Lists questions. After solving the questions I completed the OOPS Banner App. Dived into Stacks and queues implementation.
