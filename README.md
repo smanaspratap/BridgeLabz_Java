@@ -34,3 +34,5 @@
 - **4-Feb-2026 (Wed):** Learned about the Linked Lists and how to implement the Linked lists and the types, Singly LL, Doubly LL and Circular LL.
 - **5-Feb-2026 (Thu):** Particed and Prepared for the Company meetup.
 - **6-Feb-2026 (Fri):** I solved all the Linked Lists questions. After solving the questions I completed the OOPS Banner App. Dived into Stacks and queues implementation.
+- **7-Feb-2026 (Sat):** Moved into implementation of Stacks and Queues and solved the questions of Stacks and Queues.
+- **9-Feb-2026 (Mon):** Learned about HashMaps and Functions, Implemented HashMaps and solved all teh questions and submitted it on Classroom. Started with sorting algorithms and did Bubble and Insertion Sort.
