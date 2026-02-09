@@ -1,0 +1,15 @@
+# Ignore VS / Visual Studio related folder
+Vs./
+Vs/**
+
+# Ignore IntelliJ IDEA files
+.idea/
+*.iml
+
+# Ignore build/output folders
+out/
+target/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
