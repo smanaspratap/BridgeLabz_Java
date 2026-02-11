@@ -36,3 +36,5 @@
 - **6-Feb-2026 (Fri):** I solved all the Linked Lists questions. After solving the questions I completed the OOPS Banner App. Dived into Stacks and queues implementation.
 - **7-Feb-2026 (Sat):** Moved into implementation of Stacks and Queues and solved the questions of Stacks and Queues.
 - **9-Feb-2026 (Mon):** Learned about HashMaps and Functions, Implemented HashMaps and solved all teh questions and submitted it on Classroom. Started with sorting algorithms and did Bubble and Insertion Sort.
+- **10-Feb-2026 (Tue):** Prepared for the Review. Revised all the old topics and Data Structures.
+- **11-Feb-2026 (Wed):** Learned about StringBuilder and StringBuffer, BufferedReader, FileReader, InputStreamReader and implementation of the Binary search and Linear Search.
