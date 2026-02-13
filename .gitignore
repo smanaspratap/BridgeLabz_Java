@@ -1,0 +1,8 @@
+# IntelliJ files
+.idea/
+
+# Compiled output folder
+out/
+
+# VS related folder
+Vs./
