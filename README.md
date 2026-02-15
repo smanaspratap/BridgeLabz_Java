@@ -38,3 +38,6 @@
 - **9-Feb-2026 (Mon):** Learned about HashMaps and Functions, Implemented HashMaps and solved all teh questions and submitted it on Classroom. Started with sorting algorithms and did Bubble and Insertion Sort.
 - **10-Feb-2026 (Tue):** Prepared for the Review. Revised all the old topics and Data Structures.
 - **11-Feb-2026 (Wed):** Learned about StringBuilder and StringBuffer, BufferedReader, FileReader, InputStreamReader and implementation of the Binary search and Linear Search.
+- **12-Feb-2026 (Thu):** Solved Binary earch Questions and 5 Hackerrank Questions. Started learning about runtime analysis.
+- **13-Feb-2026 (Fri):** Started Learning about Java Generics and solved the questions of Java Generics.
+- **14-Feb-2026 (Sat):** Completed the Project of Factory Robot Analyzer.
