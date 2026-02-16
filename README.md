@@ -41,3 +41,4 @@
 - **12-Feb-2026 (Thu):** Solved Binary earch Questions and 5 Hackerrank Questions. Started learning about runtime analysis.
 - **13-Feb-2026 (Fri):** Started Learning about Java Generics and solved the questions of Java Generics.
 - **14-Feb-2026 (Sat):** Completed the Project of Factory Robot Analyzer.
+- **16-Feb-2026 (Mon):** Learned about the collections frameworks in Java and finished all the Questions in the given Assingment.
