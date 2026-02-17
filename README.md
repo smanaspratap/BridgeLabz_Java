@@ -42,3 +42,4 @@
 - **13-Feb-2026 (Fri):** Started Learning about Java Generics and solved the questions of Java Generics.
 - **14-Feb-2026 (Sat):** Completed the Project of Factory Robot Analyzer.
 - **16-Feb-2026 (Mon):** Learned about the collections frameworks in Java and finished all the Questions in the given Assingment.
+- **17-Feb-2026 (Tue):** Learned about Exceptions and solved all the questions on it and pushed it in Github, After Exceptions I learned about Regex and how Regex can be used for Validation of the Strings.
