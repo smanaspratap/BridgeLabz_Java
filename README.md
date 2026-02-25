@@ -43,7 +43,10 @@
 - **14-Feb-2026 (Sat):** Completed the Project of Factory Robot Analyzer.
 - **16-Feb-2026 (Mon):** Learned about the collections frameworks in Java and finished all the Questions in the given Assingment.
 - **17-Feb-2026 (Tue):** Learned about Exceptions and solved all the questions on it and pushed it in Github, After Exceptions I learned about Regex and how Regex can be used for Validation of the Strings.
-- **18-Feb-2026 (Tue):** Learned about Regular Expressions and solved all the questions on it and pushed it in Github. Learned how they can be used to make patterns. 
-- **19-Feb-2026 (Tue):** I was absent due to high fever.
-- **20-Feb-2026 (Tue):** Revised all the topics for the review.
-- **21-Feb-2026 (Tue):** Started to learn about the J Unit in Java.
+- **18-Feb-2026 (Wed):** Learned about Regular Expressions and solved all the questions on it and pushed it in Github. Learned how they can be used to make patterns. 
+- **19-Feb-2026 (Thu):** I was absent due to high fever.
+- **20-Feb-2026 (Fri):** Revised all the topics for the review.
+- **21-Feb-2026 (Sat):** Started to learn about the J Unit in Java.
+- **23-Feb-2026 (Mon):** Solved all the Questions of the Junit posted in the classroom and pushed it on github.
+- **24-Feb-2026 (Tue):** Today I learned all the concepts of Lambda Expressions and Solved the assingment Questions.
+- **25-Feb-2026 (Wed):** Started learning about the concepts of MultiThreading.
