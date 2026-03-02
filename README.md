@@ -50,3 +50,6 @@
 - **23-Feb-2026 (Mon):** Solved all the Questions of the Junit posted in the classroom and pushed it on github.
 - **24-Feb-2026 (Tue):** Today I learned all the concepts of Lambda Expressions and Solved the assingment Questions.
 - **25-Feb-2026 (Wed):** Started learning about the concepts of MultiThreading.
+- **26-Feb-2026 (Thu):** Learnt more about the concepts of MultiThreading, in depth. Thread Pools and how can the locks be manualy setup.
+- **27-Feb-2026 (Fri):** Started learning about the concepts of Java Streams and Java 8. Learnt about various types of methods in streams to shorten the code.
+- **28-Feb-2026 (Sat):** Revised Everything for the Review and gave the review today.
